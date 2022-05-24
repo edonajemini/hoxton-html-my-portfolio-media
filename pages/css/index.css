@@ -166,12 +166,14 @@
         color:gray;
     }
     .section_experience h2{
-        padding-top: 10px;
-        padding-left: 15px;
-        padding-bottom: 10px;
-        text-decoration:wavy;
-        color: #102232
-    }
+            padding-top: 10px;
+            padding-left: 15px;
+            padding-bottom: 10px;
+            text-decoration:wavy;
+            color: #102232;
+        }
+    
+   
     .section_experience p{
         color:grey;
     }
