@@ -10,7 +10,7 @@
         grid-template:
         'first first first' 400px
         'second second second'400px
-        'section section section' 350px 
+        'section section section' 500px
         'footer footer footer' 80px/
         300px 1fr 200px;
     }
@@ -117,7 +117,7 @@
 
       .project h2,h4{
         padding-top: 10px;
-        padding-left: 5px;
+        padding-left: 15px;
         padding-bottom: 10px;
         text-decoration:wavy;
         color: rgba(86, 75, 75, 0.67);
@@ -132,6 +132,10 @@
         text-decoration: initial;
         color: initial;
       }
+      .project p {
+          padding: 10px;
+      }
+
     
       
     section {
@@ -156,11 +160,22 @@
     }
     
     section h3 {
-        padding-top: 100px;
+        padding-top: 130px;
         padding-left: 30px;
         text-decoration:overline;
         color:gray;
     }
+    .section_experience h2{
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-bottom: 10px;
+        text-decoration:wavy;
+        color: #102232
+    }
+    .section_experience p{
+        color:grey;
+    }
+
     
     
     footer {
