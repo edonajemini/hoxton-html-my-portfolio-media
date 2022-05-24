@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    container {
+        display: grid;
+        grid-template:
+        'first first first' 400px
+        'second second second' 250px
+        'section section section' 350px 
+        'footer footer footer' 80px/
+        300px 1fr 200px;
+    }
+    .first {
+        grid-area: first;
+        display: grid;
+        list-style: none;
+        display: grid;
+        grid-template-rows: repeat(auto-fit, repeat(200px, 2px));
+        gap: 1rem;
+        background-color: rgba(236, 212, 212, 0.457);
+    
+    }
+    header {
+        grid-area: header;
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px ;
+        margin-bottom: auto;
+        color: gray;
+        padding: 15px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        outline: none;
+        justify-content: space-between;
+        box-shadow: 0px 2px 5px -2px rgba(171, 119, 119, 0.75);
+    }
+    nav{
+        justify-content: space-between;
+        color: initial;
+        padding: 15px;
+        list-style: none;
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: start;
+        gap: 1rem;
+        text-decoration: initial;
+        color: initial;
+    }
+    .link {
+        color:gray;
+        text-decoration: none;
+    }
+    .current-page {
+        padding: 15px; 
+        color: rgb(188, 138, 138);
+    }
+    
+    .profile{
+        grid-area: profile;
+        margin-top: 250px;
+        margin-left: 100px;
+        margin-right:100px ;
+        text-transform: capitalize;
+        color: rgba(145, 63, 63, 0.576);
+        padding: 15px;
+        background-color: rgb(220, 197, 197);
+        display: grid;
+        align-items: top;
+        outline: none;
+        justify-content: space-between;
+        box-shadow: 0px 2px 5px -2px rgba(197, 189, 189, 0.75);
+    }
+    
+    .second {
+        grid-area: second;
+        display:grid;
+        background-color: rgba(236, 212, 212, 0.457);
+    
+    }
+    .second h3 {
+        padding-top: 100px;
+        padding-left: 30px;
+        text-decoration:overline;
+        color:gray;
+    
+    }
+    
+    .second_projects {
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 2rem;
+      }
+    
+      .project {
+        border: 1px solid rgb(254, 245, 245);
+        box-shadow:0px 2px 5px 2px rgba(157, 114, 114, 0.75);
+        border-radius: 10px;
+      }
+      .project h2,h4{
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-bottom: 10px;
+        text-decoration:wavy;
+        color: rgba(86, 75, 75, 0.67);
+      }
+      .project h4 {
+          text-decoration: underline;
+          color: rgb(188, 138, 138);
+          text-transform:capitalize;
+      }
+      
+      .project a {
+        text-decoration: initial;
+        color: initial;
+      }
+    
+      
+    section {
+        grid-area: section;
+        display:grid;
+        background-color: rgba(236, 212, 212, 0.457);
+        
+    }
+    
+    ul .section_experience {
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-left: 300px;
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        border: 1px solid rgb(136, 110, 110);
+        box-shadow:0px 2px 5px 2px rgba(157, 114, 114, 0.75);
+        border-radius: 10px;
+    }
+    
+    section h3 {
+        padding-top: 100px;
+        padding-left: 30px;
+        text-decoration:overline;
+        color:gray;
+    }
+    
+    
+    footer {
+        color: rgb(216, 218, 219);
+        text-transform: uppercase;
+        grid-area: footer;
+        display: flex;
+        background-color: rgba(137, 97, 97, 0.701);
+        padding-left: 550px;
+    }
+    .go_to_top {
+        text-decoration: none;
+        color:white;
+    }
