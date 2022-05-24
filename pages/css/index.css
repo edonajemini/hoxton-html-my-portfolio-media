@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
     }
     container {
         display: grid;
         grid-template:
         'first first first' 400px
-        'second second second' 250px
+        'second second second'400px
         'section section section' 350px 
         'footer footer footer' 80px/
         300px 1fr 200px;
@@ -100,8 +102,19 @@
       .project {
         border: 1px solid rgb(254, 245, 245);
         box-shadow:0px 2px 5px 2px rgba(157, 114, 114, 0.75);
-        border-radius: 10px;
+        border-radius: 30px;
       }
+      .project img{
+          align-self: center;
+          width: 300px;
+          padding: 10px;
+          border-radius: 30px;
+          display: block;
+          margin-left:20px;
+          margin-right: 20px;
+        
+      }
+
       .project h2,h4{
         padding-top: 10px;
         padding-left: 5px;
